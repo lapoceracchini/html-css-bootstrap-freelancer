@@ -14,8 +14,18 @@ hr {
   border: 1px solid white;
 }
 
+#portfolio {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #about {
   background-color: #1abc9c;
+  text-align: center;
+}
+
+#space{
+  padding-top: 20px;
 }
 
 #info {
