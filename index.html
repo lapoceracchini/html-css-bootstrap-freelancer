@@ -6,118 +6,214 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 <!-- BOOTSTRAP LINK -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- FONTAWESOME -->
+<!-- TITLE -->
     <title>Bootstrap Freelancer</title>
   </head>
 <!-- BODY -->
   <body>
 
-<!-- HEAD -->
-    <div class="container-fluid" id="head">
+<!-- HEADER -->
+    <header>
 
       <div class="container h-100">
-
-        <div class="row justify-content-md-between align-items-center h-100 bg bg-opacity-0">
-          <div class="col-9 col-md-3 bg bg-opacity-0">
-            <h3>START BOOTSTRAP</h3>
+        <nav class="me-navbar navbar navbar-expand-lg h-100">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">START BOOTSRAPT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                </li>
+                
+            </div>
           </div>
-          <div class="col-md-3 d-none d-md-block text-end bg bg-opacity-0">
-            <span>PORTFOLIO &nbsp; &nbsp; ABOUT &nbsp; &nbsp; CONTACT</span>
-          </div>
-          <div class="col-3 d-md-none text-end bg bg-opacity-0">
-            <span>Hamburger</span>
-          </div>
-
-        </div>
+        </nav>
       </div>
-    </div>
 
-<!-- STAR -->
-    <div class="container-fluid" id="star">
-      
-        <div class="container d-flex flex-column align-items-center">
-          <div><img src="img/Senza titolo.png" alt=""></div>
-          <div><h1>START BOOTSTRAP</h1></div>
-          <hr>
-          <div>Lorem ipsum, - dolor sit amet consectetur - adipisicing elit.</div>
-        </div>
-      
-    </div>
+    </header>
 
-<!-- PORTFOLIO -->
-    <div class="container-fluid" id="portfolio">
-      <div class="container d-flex justify-content-center align-items-center">
-        <div class="row flex-wrap">
-          <div id="square" class="col-md-6 col-xl-4"><img src="img/Senza titolo.png" alt=""></div>
-          <div id="square" class="col-md-6 col-xl-4"><img src="img/Senza titolo.png" alt=""></div>
-          <div id="square" class="col-md-6 col-xl-4"><img src="img/Senza titolo.png" alt=""></div>
-          <div id="square" class="col-md-6 col-xl-4"><img src="img/Senza titolo.png" alt=""></div>
-          <div id="square" class="col-md-6 col-xl-4"><img src="img/Senza titolo.png" alt=""></div>
-          <div id="square" class="col-md-6 col-xl-4"><img src="img/Senza titolo.png" alt=""></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid" id="about">
-      <div class="container d-flex justify-content-center align-items-center">
-        <div class="row justify-content-center text-white">
-          <div>ABOUT</div>
-          <div class="col-8 col-md-5">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ratione, eligendi autem perspiciatis ipsum nostrum minima accusantium itaque neque culpa natus voluptatem vel cumque, reprehenderit nesciunt excepturi! Aliquam, necessitatibus minima?
-            </p>
-          </div>
-
-          <div class="col-8 col-md-5">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, incidunt provident? Adipisci nobis dolorum minima dolorem dolor magni itaque ipsa eveniet maxime odit deserunt, porro laudantium fuga accusamus ducimus repellendus.
-            </p>
-          </div>
-          <div><button>download</button></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid" id="contact">
-      <div class="container d-flex justify-content-center align-items-center">
-        <div class="row justify-content-center">
-          <div class="col-8 col-md-10 debug">
-            <div id="space">CONTACT ME</div>
-            <div id="space"><button>email</button></div>
-            <div id="space"><button>number</button></div>
-            <div id="space"><button>address</button></div>
-            <div id="space">message</div>
-            <div id="space">&nbsp;</div>
-            <div id="space"><button>send</button></div>
+<!-- JUMBOTRON -->
+    <div class="me-jumbotron text-center">
+      <div class="me-container">
+        <div class="row">
+          <div class="col pt-3">
+            <div class="avatar">
+              <img src="img/avatar.svg" alt=""></div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="container-fluid" id="info">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 debug">
-            <div>Lorem ipsum dolor sit, amet consectetur</div>
-            <div>Lorem ipsum dolor sit, amet consectetur</div>
-          </div>
-          <div class="col-md-4 debug">
-            <div>Lorem ipsum dolor sit, amet consectetur</div>
-            <div>Lorem ipsum dolor sit, amet consectetur</div>
-          </div>
-          <div class="col-md-4 debug">
-            <div>Lorem ipsum dolor sit, amet consectetur</div>
-            <div>Lorem ipsum dolor sit, amet consectetur</div>
+          <div class="col">
+            <h1 class="title py-2">Start Bootstrapt</h1>
+            <div class="me-star">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text mt-3">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR<p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid" id="foot">
-      &nbsp;
-    </div>
+<!-- MAIN -->
+    <main>
+
+      <section id="portfolio" class="my-5 dark">
+        <div class="container text-center">
+          <h2>PORTFOLIO</h2>
+          <div class="me-star">
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 py-3 ">
+            <div class="col">
+              <div class="me-card position-relative">
+                <img class="img-fluid" src="img/cabin.png" alt="cabin">
+                <div class="me-layover position-absolute w-100 h-100 top-0 start-0 d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="me-card position-relative">
+                <img class="img-fluid" src="img/cake.png" alt="cake">
+                <div class="me-layover position-absolute w-100 h-100 top-0 start-0 d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="me-card position-relative">
+                <img class="img-fluid" src="img/circus.png" alt="circus">
+                <div class="me-layover position-absolute w-100 h-100 top-0 start-0 d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="me-card position-relative">
+                <img class="img-fluid" src="img/game.png" alt="game">
+                <div class="me-layover position-absolute w-100 h-100 top-0 start-0 d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="me-card position-relative">
+                <img class="img-fluid" src="img/safe.png" alt="safe">
+                <div class="me-layover position-absolute w-100 h-100 top-0 start-0 d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="me-card position-relative">
+                <img class="img-fluid" src="img/submarine.png" alt="submarine">
+                <div class="me-layover position-absolute w-100 h-100 top-0 start-0 d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="my-5 green">
+        <div class="container text-center">
+          <h2>About</h2>
+          <div class="me-star">
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="me-container py-5">
+          <div class="container-fluid ">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col">
+                Freelancer is a free bootstrap theme created by Start
+                Bootstrap. The download includes the complete source files including HTML. CSS. and JavaScript as well as optional LESS stylesheets for easy customization.
+              </div>
+              <div class="col">
+                Whether vou're a student looking to showcase vou work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+              </div>
+            </div>
+            <div class="button text-center mt-5">
+              <button type="button" class="btn btn-outline-light btn-lg">Download</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="contacts"  class="my-5">
+        <div class="container text-center">
+          <h2>contacts</h2>
+          <div class="star">*</div>
+        </div>
+        <div class="sc-container">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <div class="row">
+                  <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg"></label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Name">
+                  </div>
+                </div>
+                <div class="row">
+                  <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg"></label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="E-mail Adresse">
+                  </div>
+                </div>
+                <div class="row">
+                  <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg"></label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Phone Number">
+                  </div>
+                </div>
+                <div class="row">
+                  <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg"></label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Meesage">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      
+    </main>
+
+<!-- FOOTER -->
+    <footer class="text-center">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col">lorem</div>
+            <div class="col">lorem</div>
+            <div class="col">lorem</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">credits</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
   </body>
 </html>
